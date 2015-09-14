@@ -73,7 +73,7 @@ data = { an_outer: "hash",
   }
 }
 
-get_in(data, [:with_another, [:inner, [:and_another, :inside]])
+get_in(data, [:with_another, [:inner, [:and_another, :inside]]])
 => ["hash", "that"]
 ```
 
